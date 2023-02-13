@@ -1,13 +1,13 @@
 # Задание №6 Сортировка словарей и списков
-
-# my_list = [(1, 1, 1), (1, 2, 3), (-1, -1, 7), (-3, 2, 8), (0, 0, 0), (3, -4, -5)]
+my_list = [(1, 1, 1), (1, 2, 3), (-1, -1, 7), (-3, 2, 8), (0, 0, 0), (3, -4, -5)]
 
 # сортировка по сумме кортежей
-# my_list.sort(key=lambda i: sum(i))
+my_list.sort(key=lambda i: sum(i))
+print(my_list)
 
 # сортировка по 3-му элементу
-# my_list.sort(key=lambda i: i[2])
-# print(my_list)
+my_list.sort(key=lambda i: i[2])
+print(my_list)
 
 
 my_dict = {'b': 3, 'c': 2, 'a': 4, 'd': 1}

@@ -1,7 +1,6 @@
 # Задание 5 использовать list comprehensions
+import string
 # было
-# import string
-#
 # sentence = 'I am@Python@senior^pomidor'
 #
 # list_with_words = sentence.split()
@@ -14,8 +13,6 @@
 # print(new_list)
 
 # стало с list comprehensions
-import string
-
 sentence = 'I am@Python@senior^pomidor'
 
 list_with_words = sentence.split()

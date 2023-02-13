@@ -1,16 +1,16 @@
 # Задание №3 Функция, факториал числа
 # цикл for
-# def fac(a):
-#     factorial = 1
-#     for i in range(1, n + 1):
-#         factorial *= i
-#     return factorial
-#
-#
-# n = int(input('Введите число '))
-#
-# value = fac(n)
-# print(f'{n}! = {value}')
+def fac(a):
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial *= i
+    return factorial
+
+
+n = int(input('Введите число '))
+
+value = fac(n)
+print(f'{n}! = {value}')
 
 
 # цикл while
@@ -29,14 +29,14 @@
 
 
 # рекурсия
-def fac(x):
-    if x > 1:
-        return x * fac(x - 1)
-    else:
-        return 1
-
-
-n = int(input('Введите число '))
-
-value = fac(n)
-print(f'{n}! = {value}')
+# def fac(x):
+#     if x > 1:
+#         return x * fac(x - 1)
+#     else:
+#         return 1
+#
+#
+# n = int(input('Введите число '))
+#
+# value = fac(n)
+# print(f'{n}! = {value}')
