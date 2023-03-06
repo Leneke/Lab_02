@@ -1,4 +1,4 @@
-# Задание 1. Ошибки
+# Task №1. Cause errors
 
 # SyntaxError
 # a = 'Hello world!

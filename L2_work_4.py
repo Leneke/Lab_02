@@ -1,6 +1,6 @@
-# Задание №4 использовать list comprehension
+# Task №4 do a refactoring using list comprehension, map, filter
 import random
-# было
+
 list_with_numbers = list(range(10))
 new_list = []
 
@@ -10,7 +10,11 @@ for i in list_with_numbers:
 
 print(new_list)
 
-# стало с list comprehension
-# list_with_numbers = list(range(10))
-# new_list = [i + random.random() for i in list_with_numbers if not i % 2]
-# print(new_list)
+# list comprehension
+new_list_comprehension = [i + random.random() for i in range(10) if not i % 2]
+print(new_list_comprehension)
+
+# map, filter
+my_new_list = map(lambda y: y + random.random(), filter(lambda x: not x % 2, list(range(10))))
+print(list(my_new_list))
+

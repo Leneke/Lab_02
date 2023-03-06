@@ -1,4 +1,4 @@
-# Задание 7 написать декоратор
+# Task №7. Write a decorator that modifies a function in such a way that the result of its execution is returned in json format
 import json
 
 
@@ -9,10 +9,12 @@ def decorator_json(func):
 
 @decorator_json
 def summa(x):
-    """summa вычисляет сумму чисел от 1 до x"""
+    """summa calculates the sum of numbers from 1 to x"""
     result = 0
     for i in range(1, x + 1):
         result += i
-    return f'Сумма чисел от 1 до {x} = {result}'
+    return f'Sum of numbers from 1 to {x} = {result}'
 
 print(summa(7))
+
+
